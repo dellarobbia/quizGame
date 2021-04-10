@@ -1,0 +1,30 @@
+5.0 4
+9.0 9 5 25
+9.0
+5.0 4.0
+9 9.0 25 5
+9.0
+Mickey Mouse
+MickeyMouse null error MouseMickey
+MickeyMouse
+c a
+error ca 4 25
+ca
+8 8
+16 15 14 11
+16
+4.5f 3.6f
+8.1f 2 8.1 6
+8.1
+Java Program
+JavaProgram javaprogram Javaprogram javaProgram
+JavaProgram
+2.3f 4
+6.3f 6.3 4 2
+6.3
+Mary Lamb
+MaryLamb little lamb cool
+MaryLamb
+6 5
+11 12 13 14
+11

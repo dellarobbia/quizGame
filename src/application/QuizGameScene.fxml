@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="190.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QuizGameSceneController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="38.0" prefWidth="540.0" spacing="50.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="playerNameLabel" text="&lt;PlayerName&gt;" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="playerScoreLabel" alignment="CENTER" text="&lt;PlayerScore&gt;" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="timerLabel" text="&lt;Timer&gt;" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutY="38.0" prefHeight="152.0" prefWidth="540.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="27.0" prefWidth="387.0">
+               <children>
+                  <Label fx:id="questionNumberLabel" text="&lt;QuestionNumber&gt;" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="51.0" prefWidth="523.0">
+               <children>
+                  <Label fx:id="questionPromptLabel" text="&lt;QuestionPrompt&gt;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="540.0" spacing="20.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="choice1Label" alignment="CENTER" prefHeight="17.0" prefWidth="109.0" text="1.&lt;Answer1&gt;" />
+                        <Button fx:id="choice1Button" mnemonicParsing="false" onAction="#choiceButton1_Pressed" text="1" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="choice2Label" alignment="CENTER" prefHeight="17.0" prefWidth="104.0" text="2.&lt;Answer2&gt;" />
+                        <Button fx:id="choice2Button" mnemonicParsing="false" onAction="#choiceButton2_Pressed" text="2" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="choice3Label" alignment="CENTER" prefHeight="17.0" prefWidth="108.0" text="3.&lt;Answer3&gt;" />
+                        <Button fx:id="choice3Button" mnemonicParsing="false" onAction="#choiceButton3_Pressed" text="3" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="choice4Label" alignment="CENTER" prefHeight="17.0" prefWidth="113.0" text="4.&lt;Answer4&gt;" />
+                        <Button fx:id="choice4Button" mnemonicParsing="false" onAction="#choiceButton4_Pressed" text="4" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
